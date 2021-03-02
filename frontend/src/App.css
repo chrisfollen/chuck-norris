@@ -1,10 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Bebas+Neue&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
 body {
-  background: #c04702;
+  background: #4a508e;
   height: 95vh;
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+span {
+  font-family: 'Bebas Neue', cursive;
+  font-size:120px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+    8px 8px #a46118,
+    20px 20px #000000;
 }
 
 .content-container {
@@ -19,13 +38,13 @@ body {
   margin-right: auto;
 }
 
-.ground {
-  background: #be6a3b;
+#ground {
+  background: #479dc0;
   z-index: 100;
   width: 750px;
   height: 150px;
   position: absolute;
-  top: 375px;
+  top: 670px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -33,12 +52,18 @@ body {
 
 .joke-card {
   color: white;
+  font-size: 20px;
+  font-family: 'DotGothic16', sans-serif;
+  font-weight: 500;
   display: flex;
   justify-content: center;
+  width: 750px;
   height: 125px;
   align-items: center;
-  background: rgba(141, 77, 34);
+  background: #521c10;
   margin-top: 13px;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 
 .walker-face {
